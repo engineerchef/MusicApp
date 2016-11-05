@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Developer\'s Player</string>
+    <string name="category_genre">Genre</string>
+    <string name="category_album">Album</string>
+    <string name="category_playlist">Playlist</string>
+    <string name="category_artist">Artist</string>
+    <string name="rammstein">Rammstein</string>
+    <string name="rammstein_sehnsucht">Rammstein - Sehnsucht</string>
+</resources>

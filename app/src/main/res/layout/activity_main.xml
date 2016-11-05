@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tolgaduran.android.musicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/album"
+        style="@style/CustomTextview"
+        android:background="@color/color_accent"
+        android:text="@string/category_album" />
+
+    <TextView
+        android:id="@+id/artist"
+        style="@style/CustomTextview"
+        android:background="@color/color_primary_light"
+        android:text="@string/category_artist" />
+
+    <TextView
+        android:id="@+id/genre"
+        style="@style/CustomTextview"
+        android:background="@color/color_accent"
+        android:text="@string/category_genre" />
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/CustomTextview"
+        android:background="@color/color_primary_light"
+        android:text="@string/category_playlist" />
+
+    <include
+        android:id="@+id/music_player_layout"
+        layout="@layout/music_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
